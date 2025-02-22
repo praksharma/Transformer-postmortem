@@ -1,0 +1,25 @@
+copyright: "2025, By Prakhar Sharma"
+logo: assets/logo.png
+
+sphinx:
+  config:
+    html_theme: pydata_sphinx_theme
+    html_theme_options:
+      navbar_align: content
+      logo: 
+        text: "Large language models"
+      secondary_sidebar_items: page-toc, edit-this-page, sourcelink
+      back_to_top_button: True
+      use_edit_page_button: True
+      external_links:
+        - url: "https://github.com/praksharma"
+          name: "GitHub Profile"
+      header_links_before_dropdown: 3
+      github_url: https://github.com/praksharma/Transformer-postmortem
+      footer_start: copyright
+      footer_center: sphinx-version
+    html_context:
+      github_user: "praksharma"
+      github_repo: "Transformer-postmortem"
+      github_version: "main"
+      doc_path: "docs"

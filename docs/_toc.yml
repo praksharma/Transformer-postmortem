@@ -1,0 +1,7 @@
+format: jb-book
+root: intro
+
+chapters:
+- file: Transformers/intro.md
+  sections:
+  - file: Transformers/1. Basics.ipynb
